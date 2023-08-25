@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Quirky';
+  src: url('/assets/Quirk.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
