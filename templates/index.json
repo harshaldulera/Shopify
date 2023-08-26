@@ -160,7 +160,7 @@
         "template--20493837893922__6c77245a-8136-471d-a9e9-6bd53238c1e4-text-1"
       ],
       "custom_css": [
-
+        ".inline-richtext{font-family: Quirky;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/cook-chef-with-big-explosion-kitchen_207634-3621.png",
