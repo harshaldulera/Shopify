@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Quirky';
-  src: url('/assets/Quirk.otf') format('opentype');
+  src: url('Quirk.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
