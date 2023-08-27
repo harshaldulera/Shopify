@@ -121,10 +121,9 @@
         "8340b71c-bc75-403a-91b7-e54a0b7dfa10"
       ],
       "custom_css": [
-        "u.slideshow__controls {display: none;}",
-        ".banner__buttons a {position: absolute; width: 100%; height: 100%; left: 0; top: 0; background: transparent; z-index: 2; opacity: 0 !important;}",
+        ".banner__buttons a {position: absolute; width: 100%; height: 100%; left: 0; top: 0; background: transparent; z-index: 2; opacity: 0;}",
         ".slideshow__text.banner__box {position: absolute; height: 100%; width: 100%; max-width: 100%; left: 0; top: 0;}",
-        ".banner__buttons a:before,.banner__buttons a:after,.banner__buttons:before,.banner__buttons:after {display: none !important;"
+        ".banner__buttons a:before,.banner__buttons a:after {display: none;}"
       ],
       "settings": {
         "layout": "full_bleed",
