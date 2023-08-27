@@ -3531,3 +3531,7 @@ details-disclosure > details {
     background-color: transparent !important;
 }
  */
+
+.site-header__menu {
+  float: right;
+}
