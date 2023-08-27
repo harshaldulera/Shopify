@@ -40,94 +40,14 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "3db62e8b-1f33-47a1-9393-b5b47d4d15ff": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image_link": "",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "5cfbc3a3-8647-4fae-8dc6-1da7ebeaba7d": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image_link": "",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "ba956a14-fbdf-4c38-8695-93c590160a73": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image_link": "",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "8340b71c-bc75-403a-91b7-e54a0b7dfa10": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image_link": "",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide-0",
-        "2270cee3-292b-4957-884a-9b18b83aad5a",
-        "3db62e8b-1f33-47a1-9393-b5b47d4d15ff",
-        "5cfbc3a3-8647-4fae-8dc6-1da7ebeaba7d",
-        "ba956a14-fbdf-4c38-8695-93c590160a73",
-        "8340b71c-bc75-403a-91b7-e54a0b7dfa10"
+        "2270cee3-292b-4957-884a-9b18b83aad5a"
       ],
       "custom_css": [
-        ".slideshow__controls{display: none;}",
+        ".slideshow__controls {display: none;}",
         ".banner__buttons a {position: absolute; width: 100%; height: 100%; left: 0; top: 0; background: transparent; z-index: 2; opacity: 0;}",
         ".slideshow__text.banner__box {position: absolute; height: 100%; width: 100%; max-width: 100%; left: 0; top: 0;}",
         ".banner__buttons a:before,.banner__buttons a:after {display: none;}"
@@ -159,12 +79,22 @@
             "text": "<p>Indulge in the authentic flavors of our meticulously crafted dishes at Home of Temptation. Our skilled chefs bring their expertise to every plate, ensuring a culinary experience that tantalizes your taste buds and captures the essence of each dish.<\/p>",
             "text_style": "body"
           }
+        },
+        "f52d84e7-bf09-4487-a8e5-107d72e10092": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "template--20493837893922__6c77245a-8136-471d-a9e9-6bd53238c1e4-heading-1",
-        "template--20493837893922__6c77245a-8136-471d-a9e9-6bd53238c1e4-text-1"
+        "template--20493837893922__6c77245a-8136-471d-a9e9-6bd53238c1e4-text-1",
+        "f52d84e7-bf09-4487-a8e5-107d72e10092"
       ],
+      "disabled": true,
       "custom_css": [
         ".inline-richtext {font-family: Quirky;}"
       ],
