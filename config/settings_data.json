@@ -151,7 +151,7 @@
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#fff",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#3d081b",
           "button": "#910f3f",
@@ -195,7 +195,7 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#95357f",
+          "background": "#e4dcce",
           "background_gradient": "",
           "text": "#3d081b",
           "button": "#3d081b",
