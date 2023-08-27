@@ -13,25 +13,25 @@
             "alignment": ""
           }
         },
-        "872ff769-6352-405d-bcad-c86d6ea5b13b": {
-          "type": "text",
-          "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
-        },
         "ca63b18f-fc35-4413-91b1-16f6b8ab7219": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
           }
+        },
+        "872ff769-6352-405d-bcad-c86d6ea5b13b": {
+          "type": "text",
+          "settings": {
+            "heading": "Heading",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+          }
         }
       },
       "block_order": [
         "2e748d8e-fbc4-4a71-84b6-9eb3648fb8f2",
-        "872ff769-6352-405d-bcad-c86d6ea5b13b",
-        "ca63b18f-fc35-4413-91b1-16f6b8ab7219"
+        "ca63b18f-fc35-4413-91b1-16f6b8ab7219",
+        "872ff769-6352-405d-bcad-c86d6ea5b13b"
       ],
       "settings": {
         "color_scheme": "inverse",
