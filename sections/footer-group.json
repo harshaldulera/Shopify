@@ -8,8 +8,9 @@
         "2e748d8e-fbc4-4a71-84b6-9eb3648fb8f2": {
           "type": "image",
           "settings": {
-            "image_width": 100,
-            "alignment": "center"
+            "image": "shopify:\/\/shop_images\/Untitled_design_1_1.png",
+            "image_width": 140,
+            "alignment": ""
           }
         },
         "872ff769-6352-405d-bcad-c86d6ea5b13b": {
