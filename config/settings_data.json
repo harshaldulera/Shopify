@@ -173,7 +173,7 @@
       },
       "inverse": {
         "settings": {
-          "background": "#590919",
+          "background": "#850922",
           "background_gradient": "",
           "text": "#f2efdd",
           "button": "#f2efdd",
@@ -206,7 +206,7 @@
       },
       "scheme-a99a2941-4bfb-4303-ba8b-f9815a3f97a4": {
         "settings": {
-          "background": "#fdb730",
+          "background": "#eafd30",
           "background_gradient": "",
           "text": "#342824",
           "button": "#644569",

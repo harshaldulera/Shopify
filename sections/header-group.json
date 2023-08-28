@@ -46,7 +46,7 @@
         "sticky_header_type": "reduce-logo-size",
         "show_line_separator": false,
         "color_scheme": "scheme-a99a2941-4bfb-4303-ba8b-f9815a3f97a4",
-        "menu_color_scheme": "scheme-a99a2941-4bfb-4303-ba8b-f9815a3f97a4",
+        "menu_color_scheme": "inverse",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
