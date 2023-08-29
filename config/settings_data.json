@@ -133,6 +133,13 @@
       "pina-instagram": {
         "type": "pina-instagram",
         "settings": {
+          "title": "Follow Us On Instagram",
+          "show_profile": true,
+          "small": "2",
+          "medium": "3",
+          "large": "4",
+          "gutter": "2",
+          "count": "8"
         }
       }
     },
