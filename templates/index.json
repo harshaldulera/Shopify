@@ -223,7 +223,10 @@
     "fec7098a-8a28-48bb-8693-34705342e9a8": {
       "type": "custom-liquid",
       "custom_css": [
-
+        ".ts-collection-top-tabs {width: 100%; display: flex; justify-content: space-between; padding: 20px 0; border-bottom: 1px solid #ddd;}",
+        ".collection-nav-slider {width: 100%; display: flex; justify-content: space-between;}",
+        ".collection-nav-slider a {color: #333; text-decoration: none; padding: 10px 20px; border-radius: 5px; transition: background-color 0.3s ease;}",
+        ".collection-nav-slider a:hover {background-color: #f8f8f8;}"
       ],
       "settings": {
         "custom_liquid": "{% assign timelineItems = 'Open, Cook, Serve, Enjoy' | split: ', ' %}\n{% assign slideNumbers = '1, 2, 3, 4' | split: ', ' %}\n\n<div class=\"ts-collection-top-tabs\">\n  <div class=\"collection-nav-slider\">\n    {% for i in (0..timelineItems.size) %}\n      <a href=\"#\" data-slide=\"{{ slideNumbers[i] }}\">{{ timelineItems[i] }}<\/a>\n    {% endfor %}\n  <\/div>\n<\/div>",
