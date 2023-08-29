@@ -172,7 +172,7 @@
         ".title-wrapper--no-top-margin {text-align: center;}"
       ],
       "settings": {
-        "title": "<strong>#HOT<\/strong> deals",
+        "title": "<strong>#HOT<\/strong><em>Deals<\/em>",
         "heading_size": "h1",
         "description": "",
         "show_description": true,
