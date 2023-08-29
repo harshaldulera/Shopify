@@ -173,7 +173,7 @@
         ".h1 {font-family: Quirky;}"
       ],
       "settings": {
-        "title": "<strong>#HOT <\/strong>Deals",
+        "title": "<strong>#HOT<\/strong>Deals",
         "heading_size": "h1",
         "description": "",
         "show_description": true,
