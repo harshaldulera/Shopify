@@ -1,7 +1,7 @@
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/Untitled_design_1_1.png",
-    "logo_width": 70,
+    "logo_width": 100,
     "type_header_font": "mariposa_sans_n4",
     "heading_scale": 120,
     "type_body_font": "archivo_n4",
@@ -10,7 +10,7 @@
     "spacing_sections": 64,
     "spacing_grid_horizontal": 12,
     "spacing_grid_vertical": 12,
-    "animations_reveal_on_scroll": false,
+    "animations_reveal_on_scroll": true,
     "animations_hover_elements": "vertical-lift",
     "buttons_border_thickness": 2,
     "buttons_border_opacity": 100,
@@ -135,14 +135,14 @@
 
     ],
     "blocks": {
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+      "10746902591489815047": {
+        "type": "shopify:\/\/apps\/use-google-fonts-custom-fonts\/blocks\/app-embed\/2caf2c68-0038-455e-b0b9-066a7c2ad923",
         "disabled": false,
         "settings": {
         }
       },
-      "10746902591489815047": {
-        "type": "shopify:\/\/apps\/use-google-fonts-custom-fonts\/blocks\/app-embed\/2caf2c68-0038-455e-b0b9-066a7c2ad923",
+      "16278478101612877664": {
+        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
         "settings": {
         }
@@ -151,7 +151,7 @@
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#fff",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#3d081b",
           "button": "#910f3f",
@@ -173,7 +173,7 @@
       },
       "inverse": {
         "settings": {
-          "background": "#590919",
+          "background": "#850922",
           "background_gradient": "",
           "text": "#f2efdd",
           "button": "#f2efdd",
@@ -195,11 +195,11 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#95357f",
+          "background": "#e4dcce",
           "background_gradient": "",
           "text": "#3d081b",
-          "button": "#3d081b",
-          "button_label": "#f9e547",
+          "button": "#590919",
+          "button_label": "#ffffff",
           "secondary_button_label": "#3d081b",
           "shadow": "#3d081b"
         }
