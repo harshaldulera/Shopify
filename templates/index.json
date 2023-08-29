@@ -169,7 +169,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".title-wrapper--no-top-margin {text-align: center;}"
+        ".title-wrapper--no-top-margin {text-align: center;}",
+        ".h1{font-family: Quirky;}"
       ],
       "settings": {
         "title": "<strong>#HOT<\/strong><em>Deals<\/em>",
