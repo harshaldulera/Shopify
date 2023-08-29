@@ -197,12 +197,18 @@
         "padding_top": 16,
         "padding_bottom": 72
       }
+    },
+    "pina-instagram": {
+      "type": "pina-instagram",
+      "settings": {
+      }
     }
   },
   "order": [
     "slideshow",
     "1693315031f19e44ae",
     "6c77245a-8136-471d-a9e9-6bd53238c1e4",
-    "featured_collection"
+    "featured_collection",
+    "pina-instagram"
   ]
 }
