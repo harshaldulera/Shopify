@@ -135,14 +135,14 @@
 
     ],
     "blocks": {
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+      "10746902591489815047": {
+        "type": "shopify:\/\/apps\/use-google-fonts-custom-fonts\/blocks\/app-embed\/2caf2c68-0038-455e-b0b9-066a7c2ad923",
         "disabled": false,
         "settings": {
         }
       },
-      "10746902591489815047": {
-        "type": "shopify:\/\/apps\/use-google-fonts-custom-fonts\/blocks\/app-embed\/2caf2c68-0038-455e-b0b9-066a7c2ad923",
+      "16278478101612877664": {
+        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
         "settings": {
         }
