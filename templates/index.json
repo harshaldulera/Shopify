@@ -201,6 +201,32 @@
     "pina-instagram": {
       "type": "pina-instagram",
       "settings": {
+        "title": "Follow Us On Instagram",
+        "show_profile": true,
+        "timeline": "own",
+        "small": "2",
+        "medium": "3",
+        "large": "4",
+        "gutter": "2",
+        "count": "8",
+        "hashtags": "",
+        "container_class": "page-width",
+        "margin_top": "",
+        "margin_left": "",
+        "margin_bottom": "",
+        "margin_right": "",
+        "desktop_width": "",
+        "mobile_width": "",
+        "tablet_width": ""
+      }
+    },
+    "fec7098a-8a28-48bb-8693-34705342e9a8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -209,6 +235,7 @@
     "1693315031f19e44ae",
     "6c77245a-8136-471d-a9e9-6bd53238c1e4",
     "featured_collection",
-    "pina-instagram"
+    "pina-instagram",
+    "fec7098a-8a28-48bb-8693-34705342e9a8"
   ]
 }
