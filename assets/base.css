@@ -3526,12 +3526,7 @@ details-disclosure > details {
 .section,.page{
   margin:30px 0 !important;
 }
-/* .color-accent-1, .color-accent-2, .color-background-1, .color-background-2, .color-inverse, body {
-    color: rgba(var(--color-foreground),.75);
-    background-color: transparent !important;
-}
- */
 
-.site-header__menu {
-  float: right;
+.list-menu--inline{
+  justify-items: right;
 }
