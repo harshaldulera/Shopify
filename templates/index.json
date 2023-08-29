@@ -83,6 +83,39 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "1693315031f19e44ae": {
+      "type": "apps",
+      "blocks": {
+        "309d47fb-8930-4a4b-887a-f0e9ec031ddd": {
+          "type": "shopify:\/\/apps\/slidy-testimonial-carousel\/blocks\/star_rating\/aec155f2-eaa1-4784-b6a2-6990d99df314",
+          "settings": {
+            "image_with_text_image_1": "shopify:\/\/shop_images\/welcome-to-my-business.jpg",
+            "image_description_1": "",
+            "image_with_text_image_2": "shopify:\/\/shop_images\/here-you-go.jpg",
+            "image_description_2": "",
+            "image_with_text_image_3": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
+            "image_description_3": "",
+            "image_with_text_image_4": "shopify:\/\/shop_images\/woman-infront-of-tree-with-berries.jpeg",
+            "image_description_4": "",
+            "image_with_text_image_5": "shopify:\/\/shop_images\/handful-of-acorns.jpg",
+            "image_description_5": "",
+            "image_description_6": "",
+            "image_description_7": "",
+            "image_description_8": "",
+            "slide_count": 3,
+            "image_size": 200,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "309d47fb-8930-4a4b-887a-f0e9ec031ddd"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "6c77245a-8136-471d-a9e9-6bd53238c1e4": {
       "type": "image-with-text",
       "blocks": {
@@ -165,39 +198,6 @@
         "padding_bottom": 72
       }
     },
-    "1693315031f19e44ae": {
-      "type": "apps",
-      "blocks": {
-        "309d47fb-8930-4a4b-887a-f0e9ec031ddd": {
-          "type": "shopify:\/\/apps\/slidy-testimonial-carousel\/blocks\/star_rating\/aec155f2-eaa1-4784-b6a2-6990d99df314",
-          "settings": {
-            "image_with_text_image_1": "shopify:\/\/shop_images\/welcome-to-my-business.jpg",
-            "image_description_1": "",
-            "image_with_text_image_2": "shopify:\/\/shop_images\/here-you-go.jpg",
-            "image_description_2": "",
-            "image_with_text_image_3": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
-            "image_description_3": "",
-            "image_with_text_image_4": "shopify:\/\/shop_images\/woman-infront-of-tree-with-berries.jpeg",
-            "image_description_4": "",
-            "image_with_text_image_5": "shopify:\/\/shop_images\/handful-of-acorns.jpg",
-            "image_description_5": "",
-            "image_description_6": "",
-            "image_description_7": "",
-            "image_description_8": "",
-            "slide_count": 3,
-            "image_size": 200,
-            "margin_top": 0,
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "309d47fb-8930-4a4b-887a-f0e9ec031ddd"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "pina-instagram": {
       "type": "pina-instagram",
       "settings": {
@@ -222,8 +222,11 @@
     },
     "fec7098a-8a28-48bb-8693-34705342e9a8": {
       "type": "custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "{% assign timelineItems = 'Open, Cook, Serve, Enjoy' | split: ', ' %}\n{% assign slideNumbers = '1, 2, 3, 4' | split: ', ' %}\n\n<div class=\"ts-collection-top-tabs\">\n  <div class=\"collection-nav-slider\">\n    {% for i in (0..timelineItems.size) %}\n      <a href=\"#\" data-slide=\"{{ slideNumbers[i] }}\">{{ timelineItems[i] }}<\/a>\n    {% endfor %}\n  <\/div>\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -232,9 +235,9 @@
   },
   "order": [
     "slideshow",
+    "1693315031f19e44ae",
     "6c77245a-8136-471d-a9e9-6bd53238c1e4",
     "featured_collection",
-    "1693315031f19e44ae",
     "pina-instagram",
     "fec7098a-8a28-48bb-8693-34705342e9a8"
   ]
