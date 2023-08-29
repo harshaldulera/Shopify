@@ -170,10 +170,10 @@
       "type": "featured-collection",
       "custom_css": [
         ".title-wrapper--no-top-margin {text-align: center;}",
-        ".h1{font-family: Quirky;}"
+        ".h1 {font-family: Quirky;}"
       ],
       "settings": {
-        "title": "<strong>#HOT<\/strong><em>Deals<\/em>",
+        "title": "<strong>#HOT <\/strong>Deals",
         "heading_size": "h1",
         "description": "",
         "show_description": true,
