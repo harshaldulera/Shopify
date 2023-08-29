@@ -83,6 +83,39 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "1693315031f19e44ae": {
+      "type": "apps",
+      "blocks": {
+        "309d47fb-8930-4a4b-887a-f0e9ec031ddd": {
+          "type": "shopify:\/\/apps\/slidy-testimonial-carousel\/blocks\/star_rating\/aec155f2-eaa1-4784-b6a2-6990d99df314",
+          "settings": {
+            "image_with_text_image_1": "shopify:\/\/shop_images\/welcome-to-my-business.jpg",
+            "image_description_1": "",
+            "image_with_text_image_2": "shopify:\/\/shop_images\/here-you-go.jpg",
+            "image_description_2": "",
+            "image_with_text_image_3": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
+            "image_description_3": "",
+            "image_with_text_image_4": "shopify:\/\/shop_images\/woman-infront-of-tree-with-berries.jpeg",
+            "image_description_4": "",
+            "image_with_text_image_5": "shopify:\/\/shop_images\/handful-of-acorns.jpg",
+            "image_description_5": "",
+            "image_description_6": "",
+            "image_description_7": "",
+            "image_description_8": "",
+            "slide_count": 3,
+            "image_size": 200,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "309d47fb-8930-4a4b-887a-f0e9ec031ddd"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "6c77245a-8136-471d-a9e9-6bd53238c1e4": {
       "type": "image-with-text",
       "blocks": {
@@ -167,6 +200,7 @@
   },
   "order": [
     "slideshow",
+    "1693315031f19e44ae",
     "6c77245a-8136-471d-a9e9-6bd53238c1e4",
     "featured_collection"
   ]
