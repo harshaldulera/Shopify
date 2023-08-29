@@ -94,8 +94,8 @@
       "settings": {
         "custom_liquid": "{% assign timelineItems = 'Open, Cook, Serve, Enjoy' | split: ', ' %}\n{% assign slideNumbers = '1, 2, 3, 4' | split: ', ' %}\n\n<div class=\"ts-collection-top-tabs\">\n  <div class=\"collection-nav-slider\">\n    {% for i in (0..timelineItems.size) %}\n      <a href=\"#\" data-slide=\"{{ slideNumbers[i] }}\">{{ timelineItems[i] }}<\/a>\n    {% endfor %}\n  <\/div>\n<\/div>\n\n<script>\n  $(document).ready(function () {\n    $(\".dot\").hover(\n      function () {\n        var tooltip = $(this).attr(\"data-tooltip\");\n        $(\"<div class='tooltip'>\" + tooltip + \"<\/div>\").appendTo(\"body\");\n      },\n      function () {\n        $(\".tooltip\").remove();\n      }\n    );\n\n    $(\".dot\").mousemove(function (e) {\n      $(\".tooltip\").css({ top: e.pageY + 10, left: e.pageX + 10 });\n    });\n  });\n<\/script>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 16
       }
     },
     "6c77245a-8136-471d-a9e9-6bd53238c1e4": {
