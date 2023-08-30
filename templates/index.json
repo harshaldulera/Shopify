@@ -85,8 +85,9 @@
     },
     "ebbe9250-fec0-409d-a013-a8ce5be1bfeb": {
       "type": "stepper",
+      "disabled": true,
       "settings": {
-        "step_1_label": "Step 1",
+        "step_1_label": "Open",
         "step_2_label": "Step 2",
         "step_3_label": "Step 3",
         "step_4_label": "Step 4"
@@ -146,10 +147,11 @@
       "type": "featured-collection",
       "custom_css": [
         ".title-wrapper--no-top-margin {text-align: center;}",
-        ".h1 {font-family: Quirky;}"
+        ".h1 {font-family: Quirky;}",
+        ".slider-buttons {display: none;}"
       ],
       "settings": {
-        "title": "<strong>#HOT<\/strong>Deals",
+        "title": "<em><strong>#HOT <\/strong><\/em><em>Deals<\/em>",
         "heading_size": "h1",
         "description": "",
         "show_description": true,
@@ -171,13 +173,16 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 16,
-        "padding_bottom": 72
+        "padding_bottom": 16
       }
     },
     "pina-instagram": {
       "type": "pina-instagram",
+      "custom_css": [
+        "._3yzgbUSnoM0g12QES3gF19 {display: none;}"
+      ],
       "settings": {
-        "title": "Follow Us On Instagram",
+        "title": "Visit our Instagram",
         "show_profile": true,
         "timeline": "own",
         "small": "2",
