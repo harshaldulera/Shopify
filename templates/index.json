@@ -213,7 +213,7 @@
         "._3oU1FRBdRZ5fzMu7QXu2bB {color: black; font-family: Myriad Pro bold; text-transform: uppercase;}",
         "._3yzgbUSnoM0g12QES3gF19 {display: none;}",
         "._1p4GqNgksxyi8mIg16MwkG {display: none;}",
-        "._25aIW7KA_nhJ3qLRUij1xK {display: flex; align-items: center; margin-top: -5px; margin-left: -2vw;}"
+        "._25aIW7KA_nhJ3qLRUij1xK {display: flex; align-items: center; margin-top: -5px; margin-left: -1.7vw;}"
       ],
       "settings": {
         "title": "Visit our Instagram",
@@ -272,7 +272,7 @@
         "template--20599711793442__863ce9a2-4b69-4a72-81f2-cd956ad12804-column-3"
       ],
       "custom_css": [
-        ".title-wrapper-with-link{justify-content: center;}"
+        ".title-wrapper-with-link {justify-content: center;}"
       ],
       "settings": {
         "title": "<strong>#HOTIES<\/strong>",
