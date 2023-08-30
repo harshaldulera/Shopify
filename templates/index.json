@@ -85,8 +85,9 @@
     },
     "ebbe9250-fec0-409d-a013-a8ce5be1bfeb": {
       "type": "stepper",
+      "disabled": true,
       "settings": {
-        "step_1_label": "Step 1",
+        "step_1_label": "Open",
         "step_2_label": "Step 2",
         "step_3_label": "Step 3",
         "step_4_label": "Step 4"
@@ -149,7 +150,7 @@
         ".h1 {font-family: Quirky;}"
       ],
       "settings": {
-        "title": "<strong>#HOT<\/strong>Deals",
+        "title": "<em><strong>#HOT <\/strong><\/em><em>Deals<\/em>",
         "heading_size": "h1",
         "description": "",
         "show_description": true,
