@@ -118,15 +118,15 @@
 </style>
 
 <div class="md-stepper-horizontal orange">
-    {% for step %}
+    {% for step in (1..4) %}
     <div class="md-step{% if step <= 3 %} active{% endif %}">
       <div class="md-step-circle"><span>{{ step }}</span></div>
       <div class="md-step-title">
         {% case step %}
-        {% when %}Open
-        {% when %}Cook
-        {% when %}Serve
-        {% when %}Enjoy
+        {% when 1 %}Open
+        {% when 2 %}Cook
+        {% when 3 %}Serve
+        {% when 4 %}Enjoy
         {% endcase %}
       </div>
       <div class="md-step-bar-left"></div>
