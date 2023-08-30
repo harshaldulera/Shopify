@@ -1,8 +1,8 @@
 <style>
     html {
         -webkit-font-smoothing: antialiased!important;
-	    -moz-osx-font-smoothing: grayscale!important;
-	    -ms-font-smoothing: antialiased!important;
+        -moz-osx-font-smoothing: grayscale!important;
+        -ms-font-smoothing: antialiased!important;
     }
     body {
         font-family: 'Open Sans', sans-serif;
@@ -89,7 +89,7 @@
         color:rgba(0,0,0,.87);
     }
     .md-stepper-horizontal .md-step.active.done .md-step-title,
-    .md-stepper-horizontal .md-step.active.editable .md-step-title {
+    .md-stepper-horizontal .md-stepper.horizontal .md-step.active.editable .md-step-title {
         font-weight:600;
     }
     .md-stepper-horizontal .md-step .md-step-optional {
@@ -121,7 +121,14 @@
     {% for step in (1..4) %}
     <div class="md-step{% if step <= 3 %} active{% endif %}">
       <div class="md-step-circle"><span></span></div>
-      <div class="md-step-title"></div>
+      <div class="md-step-title">
+        {% case step %}
+        {% when 1 %}Open
+        {% when 2 %}Cook
+        {% when 3 %}Serve
+        {% when 4 %}Enjoy
+        {% endcase %}
+      </div>
       <div class="md-step-bar-left"></div>
       <div class="md-step-bar-right"></div>
     </div>
