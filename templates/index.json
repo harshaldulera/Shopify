@@ -171,6 +171,38 @@
         "padding_bottom": 16
       }
     },
+    "1693402798464380bd": {
+      "type": "apps",
+      "blocks": {
+        "03176f46-2362-45fd-90fa-ad30ebfa69df": {
+          "type": "shopify:\/\/apps\/slidy-testimonial-carousel\/blocks\/star_rating\/aec155f2-eaa1-4784-b6a2-6990d99df314",
+          "settings": {
+            "image_with_text_image_1": "shopify:\/\/shop_images\/Untitleddesign_5.png",
+            "image_description_1": "",
+            "image_with_text_image_2": "shopify:\/\/shop_images\/Untitleddesign_3.png",
+            "image_description_2": "",
+            "image_with_text_image_3": "shopify:\/\/shop_images\/welcome-to-my-business.jpg",
+            "image_description_3": "",
+            "image_with_text_image_4": "shopify:\/\/shop_images\/cook-chef-with-big-explosion-kitchen_207634-3621.png",
+            "image_description_4": "",
+            "image_description_5": "",
+            "image_description_6": "",
+            "image_description_7": "",
+            "image_description_8": "",
+            "slide_count": 3,
+            "image_size": 300,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "03176f46-2362-45fd-90fa-ad30ebfa69df"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "169340255340292b96": {
       "type": "apps",
       "blocks": {
@@ -231,6 +263,7 @@
     "ebbe9250-fec0-409d-a013-a8ce5be1bfeb",
     "6c77245a-8136-471d-a9e9-6bd53238c1e4",
     "featured_collection",
+    "1693402798464380bd",
     "169340255340292b96",
     "pina-instagram"
   ]
