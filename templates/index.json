@@ -208,12 +208,12 @@
     "pina-instagram": {
       "type": "pina-instagram",
       "custom_css": [
-        "._3sk-uqowCTN45alFsVlWfO {color: orangered; font-size: 40px; font-weight: bold;}",
-        "._25aIW7KA_nhJ3qLRUij1xK {color: black; font-weight: bold; font-family: quirky; font-size: 28px;}",
+        "._3sk-uqowCTN45alFsVlWfO {color: orangered; font-size: 20px; font-weight: 900; text-transform: capitalize;}",
+        "._25aIW7KA_nhJ3qLRUij1xK {color: black;}",
         "._3oU1FRBdRZ5fzMu7QXu2bB {color: black; font-family: Myriad Pro bold; text-transform: uppercase;}",
         "._3yzgbUSnoM0g12QES3gF19 {display: none;}",
         "._1p4GqNgksxyi8mIg16MwkG {display: none;}",
-        "._25aIW7KA_nhJ3qLRUij1xK {display: flex; align-items: center; margin-top: -10px; margin-left: -20px;}"
+        "._25aIW7KA_nhJ3qLRUij1xK {display: flex; align-items: center; margin-top: -5px; margin-left: -20px;}"
       ],
       "settings": {
         "title": "Visit our Instagram",
