@@ -271,6 +271,9 @@
         "template--20599711793442__863ce9a2-4b69-4a72-81f2-cd956ad12804-column-2",
         "template--20599711793442__863ce9a2-4b69-4a72-81f2-cd956ad12804-column-3"
       ],
+      "custom_css": [
+        ".title-wrapper-with-link{justify-content: center;}"
+      ],
       "settings": {
         "title": "<strong>#HOTIES<\/strong>",
         "heading_size": "h1",
