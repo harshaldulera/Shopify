@@ -147,7 +147,8 @@
       "type": "featured-collection",
       "custom_css": [
         ".title-wrapper--no-top-margin {text-align: center;}",
-        ".h1 {font-family: Quirky;}"
+        ".h1 {font-family: Quirky;}",
+        ".slider-buttons {display: none;}"
       ],
       "settings": {
         "title": "<em><strong>#HOT <\/strong><\/em><em>Deals<\/em>",
@@ -172,13 +173,13 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 16,
-        "padding_bottom": 72
+        "padding_bottom": 16
       }
     },
     "pina-instagram": {
       "type": "pina-instagram",
       "custom_css": [
-        "._3yzgbUSnoM0g12QES3gF19{display: none;}"
+        "._3yzgbUSnoM0g12QES3gF19 {display: none;}"
       ],
       "settings": {
         "title": "Follow Us On Instagram",
