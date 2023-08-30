@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stepper Example</title>
 <style>
     html {
         -webkit-font-smoothing: antialiased!important;
@@ -116,60 +122,33 @@
         margin-right:20px;
     }
 </style>
-
-<div class="md-stepper-horizontal orange">
-    {% for step in (1..4) %}
-    <div class="md-step{% if step <= 3 %} active{% endif %}">
-      <div class="md-step-circle"><span>{{ step }}</span></div>
-      <div class="md-step-title">
-        {% case step %}
-        {% when 1 %}Open
-        {% when 2 %}Cook
-        {% when 3 %}Serve
-        {% when 4 %}Enjoy
-        {% endcase %}
-      </div>
+</head>
+<body>
+  <div class="md-stepper-horizontal orange">
+    <div class="md-step active">
+      <div class="md-step-circle"><span></span></div>
+      <div class="md-step-title">Open</div>
       <div class="md-step-bar-left"></div>
       <div class="md-step-bar-right"></div>
     </div>
-    {% endfor %}
+    <div class="md-step active">
+      <div class="md-step-circle"><span></span></div>
+      <div class="md-step-title">Cook</div>
+      <div class="md-step-bar-left"></div>
+      <div class="md-step-bar-right"></div>
+    </div>
+    <div class="md-step active">
+      <div class="md-step-circle"><span></span></div>
+      <div class="md-step-title">Serve</div>
+      <div class="md-step-bar-left"></div>
+      <div class="md-step-bar-right"></div>
+    </div>
+    <div class="md-step">
+      <div class="md-step-circle"><span></span></div>
+      <div class="md-step-title">Enjoy</div>
+      <div class="md-step-bar-left"></div>
+      <div class="md-step-bar-right"></div>
+    </div>
   </div>
-
-  {% schema %}
-    {
-      "name": "Stepper Example",
-      "settings": [],
-      "blocks": [
-        {
-          "type": "stepper",
-          "name": "Stepper",
-          "settings": [
-            {
-              "type": "color",
-              "label": "Stepper Circle Color",
-              "id": "circle_color",
-              "default": "#910F3F"
-            },
-            {
-              "type": "color",
-              "label": "Step Title Color",
-              "id": "title_color",
-              "default": "#000000"
-            }
-          ],
-          "presets": [
-            {
-              "name": "Default",
-              "category": "Custom"
-            }
-          ]
-        }
-      ],
-      "presets": [
-        {
-          "name": "Default",
-          "category": "Custom"
-        }
-      ]
-    }
-    
+</body>
+</html>
