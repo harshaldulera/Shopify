@@ -85,19 +85,6 @@
     },
     "ebbe9250-fec0-409d-a013-a8ce5be1bfeb": {
       "type": "stepper",
-      "blocks": {
-        "52928060-31bd-4822-abbd-9ec3dd4b61c2": {
-          "type": "stepper",
-          "disabled": true,
-          "settings": {
-            "circle_color": "#910F3F",
-            "title_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "52928060-31bd-4822-abbd-9ec3dd4b61c2"
-      ],
       "settings": {
       }
     },
