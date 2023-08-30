@@ -115,6 +115,16 @@
         right:50%;
         margin-right:20px;
     }
+    .md-stepper-horizontal .md-step:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        transform: translateY(-50%);
+        height: 1px;
+        width: 30px;
+        background-color: #910F3F;
+    }
 </style>
 
 <div class="md-stepper-horizontal orange">
