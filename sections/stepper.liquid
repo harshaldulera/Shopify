@@ -120,44 +120,37 @@
 <div class="md-stepper-horizontal orange">
     {% for step in (1..4) %}
     <div class="md-step{% if step <= 3 %} active{% endif %}">
-      <div class="md-step-circle"><span>{{ step }}</span></div>
-      <div class="md-step-title">
-        {% case step %}
-        {% when 1 %}Open
-        {% when 2 %}Cook
-        {% when 3 %}Serve
-        {% when 4 %}Enjoy
-        {% endcase %}
-      </div>
+      <div class="md-step-circle"><span></span></div>
+      <div class="md-step-title"></div>
       <div class="md-step-bar-left"></div>
       <div class="md-step-bar-right"></div>
     </div>
     {% endfor %}
-  </div>
+</div>
 
-  {% schema %}
+{% schema %}
+{
+  "name": "Stepper Example",
+  "settings": [],
+  "blocks": [
     {
-      "name": "Stepper Example",
-      "settings": [],
-      "blocks": [
+      "type": "stepper",
+      "name": "Stepper",
+      "settings": [
         {
-          "type": "stepper",
-          "name": "Stepper",
-          "settings": [
-            {
-              "type": "color",
-              "label": "Stepper Circle Color",
-              "id": "circle_color",
-              "default": "#910F3F"
-            },
-            {
-              "type": "color",
-              "label": "Step Title Color",
-              "id": "title_color",
-              "default": "#000000"
-            }
-          ]
+          "type": "color",
+          "label": "Stepper Circle Color",
+          "id": "circle_color",
+          "default": "#910F3F"
+        },
+        {
+          "type": "color",
+          "label": "Step Title Color",
+          "id": "title_color",
+          "default": "#000000"
         }
       ]
     }
-    {% endschema %}    
+  ]
+}
+{% endschema %}
