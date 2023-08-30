@@ -250,8 +250,8 @@
         "template--20599711793442__863ce9a2-4b69-4a72-81f2-cd956ad12804-column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Harshal",
+            "text": "<p>this is <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -259,8 +259,8 @@
         "template--20599711793442__863ce9a2-4b69-4a72-81f2-cd956ad12804-column-3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Jai",
+            "text": "<p>just a testing<\/p>",
             "link_label": "",
             "link": ""
           }
