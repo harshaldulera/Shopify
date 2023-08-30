@@ -20,3 +20,47 @@
     </div>
   {% endfor %}
 </div>
+
+{% schema %}
+    {
+      "name": "Stepper Section",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Step 1 Label",
+          "id": "step_1_label",
+          "default": "Step 1"
+        },
+        {
+          "type": "text",
+          "label": "Step 2 Label",
+          "id": "step_2_label",
+          "default": "Step 2"
+        },
+        {
+          "type": "text",
+          "label": "Step 3 Label",
+          "id": "step_3_label",
+          "default": "Step 3"
+        },
+        {
+          "type": "text",
+          "label": "Step 4 Label",
+          "id": "step_4_label",
+          "default": "Step 4"
+        }
+      ],
+      "presets": [
+        {
+          "category": "Custom",
+          "name": "Stepper Section",
+          "settings": {
+            "step_1_label": "Step 1",
+            "step_2_label": "Step 2",
+            "step_3_label": "Step 3",
+            "step_4_label": "Step 4"
+          }
+        }
+      ]
+    }
+    {% endschema %}
