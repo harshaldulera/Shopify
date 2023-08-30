@@ -177,6 +177,9 @@
     },
     "pina-instagram": {
       "type": "pina-instagram",
+      "custom_css": [
+        "._3yzgbUSnoM0g12QES3gF19{display: none;}"
+      ],
       "settings": {
         "title": "Follow Us On Instagram",
         "show_profile": true,
