@@ -3,7 +3,9 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
 
-{% render 'snippet-discount' %}
+{% comment %}
+  {% render 'snippet-discount' %}
+{% endcomment %}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
