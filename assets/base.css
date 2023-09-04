@@ -3541,7 +3541,7 @@ details-disclosure > details {
   align-items: center;
 }
 
-.background {
+/* .background {
   background: conic-gradient(
     from 136.11deg at 39.58% 43.78%,
         #f5f6ff -56.04deg,
@@ -3550,4 +3550,4 @@ details-disclosure > details {
         #f5f6ff 303.96deg,
         #f8f9ff 368.89deg
     ) !important;
-}
+} */
