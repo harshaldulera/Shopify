@@ -177,6 +177,34 @@
         "include_margins": true
       }
     },
+    "169340255340292b96": {
+      "type": "apps",
+      "blocks": {
+        "620afdb7-663b-40dd-85d2-cbe31608fd36": {
+          "type": "shopify:\/\/apps\/slidy-testimonial-carousel\/blocks\/star_rating\/aec155f2-eaa1-4784-b6a2-6990d99df314",
+          "settings": {
+            "image_description_1": "",
+            "image_description_2": "",
+            "image_description_3": "",
+            "image_description_4": "",
+            "image_description_5": "",
+            "image_description_6": "",
+            "image_description_7": "",
+            "image_description_8": "",
+            "slide_count": 3,
+            "image_size": 200,
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "620afdb7-663b-40dd-85d2-cbe31608fd36"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "pina-instagram": {
       "type": "pina-instagram",
       "custom_css": [
@@ -262,6 +290,48 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1d286cff-ea12-4ce0-a990-b0d6d0cab76f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20599711793442__1d286cff-ea12-4ce0-a990-b0d6d0cab76f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--20599711793442__1d286cff-ea12-4ce0-a990-b0d6d0cab76f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--20599711793442__1d286cff-ea12-4ce0-a990-b0d6d0cab76f-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20599711793442__1d286cff-ea12-4ce0-a990-b0d6d0cab76f-heading-1",
+        "template--20599711793442__1d286cff-ea12-4ce0-a990-b0d6d0cab76f-text-1",
+        "template--20599711793442__1d286cff-ea12-4ce0-a990-b0d6d0cab76f-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -270,7 +340,9 @@
     "6c77245a-8136-471d-a9e9-6bd53238c1e4",
     "featured_collection",
     "1693402798464380bd",
+    "169340255340292b96",
     "pina-instagram",
-    "863ce9a2-4b69-4a72-81f2-cd956ad12804"
+    "863ce9a2-4b69-4a72-81f2-cd956ad12804",
+    "1d286cff-ea12-4ce0-a990-b0d6d0cab76f"
   ]
 }
