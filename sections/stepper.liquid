@@ -20,6 +20,7 @@
         display:table-cell;
         position:relative;
         padding:24px;
+        text-align: center;
     }
     .md-stepper-horizontal .md-step:hover,
     .md-stepper-horizontal .md-step:active {
@@ -37,7 +38,7 @@
         border-bottom-right-radius: 0;
     }
     .md-stepper-horizontal .md-step:hover .md-step-circle {
-        background-color:#910F3F    ;
+        background-color:#910F3F;
     }
     .md-stepper-horizontal .md-step:first-child .md-step-bar-left,
     .md-stepper-horizontal .md-step:last-child .md-step-bar-right {
@@ -54,6 +55,16 @@
         font-size: 16px;
         font-weight: 600;
         color:#FFFFFF;
+        position: relative;
+    }
+    .md-stepper-horizontal .md-step .md-step-line {
+        position: absolute;
+        width: calc(100% + 4px);
+        height: 2px;
+        background-color: #910F3F;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     .md-stepper-horizontal.green .md-step.active .md-step-circle {
         background-color:#910F3F;
@@ -98,47 +109,21 @@
     .md-stepper-horizontal .md-step.active .md-step-optional {
         color:rgba(0,0,0,.54);
     }
-    .md-stepper-horizontal .md-step .md-step-bar-left,
-    .md-stepper-horizontal .md-step .md-step-bar-right {
-        position:absolute;
-        top:39px;
-        height:1px;
-        border-top:1px solid #910F3F;
-    }
-    .md-stepper-horizontal .md-step .md-step-bar-right {
-        right:50%;
-        left:50%;
-        margin-left:20px;
-    }
-    .md-stepper-horizontal .md-step .md-step-bar-left {
-        left:0;
-        right:50%;
-        margin-right:20px;
-    }
-    .md-stepper-horizontal .md-step:not(:last-child)::after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 100%;
-        transform: translateY(-50%);
-        height: 1px;
-        width: 30px;
-        background-color: #910F3F;
-    }
 </style>
 
 <div class="md-stepper-horizontal orange">
     {% for step in (1..4) %}
     <div class="md-step{% if step <= 3 %} active{% endif %}">
-      <div class="md-step-circle"><span>{}</span></div>
-      <div class="md-step-title">
-        {% case step %}
-        {% when 1 %}Open
-        {% when 2 %}Cook
-        {% when 3 %}Serve
-        {% when 4 %}Enjoy
-        {% endcase %}
-      </div>
+        <div class="md-step-circle"><span>{}</span></div>
+        <div class="md-step-line"></div>
+        <div class="md-step-title">
+            {% case step %}
+            {% when 1 %}Open
+            {% when 2 %}Cook
+            {% when 3 %}Serve
+            {% when 4 %}Enjoy
+            {% endcase %}
+        </div>
     </div>
     {% endfor %}
 </div>
