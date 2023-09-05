@@ -37,7 +37,8 @@
     "header": {
       "type": "header",
       "custom_css": [
-
+        ".field:after {box-shadow: none; border-bottom: 3px solid;}",
+        ".field:after {}"
       ],
       "settings": {
         "logo_position": "middle-left",
