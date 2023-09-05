@@ -37,7 +37,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".field:after {box-shadow: none; border-bottom: 3px solid;}",
+        ".field:after {box-shadow: none; border-bottom: 3px solid; top: auto !important;}",
         ".field:before {box-shadow: none;}"
       ],
       "settings": {
