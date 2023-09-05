@@ -171,44 +171,10 @@
         "padding_bottom": 16
       }
     },
-    "1693402798464380bd": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "169340255340292b96": {
-      "type": "apps",
-      "blocks": {
-        "620afdb7-663b-40dd-85d2-cbe31608fd36": {
-          "type": "shopify:\/\/apps\/slidy-testimonial-carousel\/blocks\/star_rating\/aec155f2-eaa1-4784-b6a2-6990d99df314",
-          "settings": {
-            "image_description_1": "",
-            "image_description_2": "",
-            "image_description_3": "",
-            "image_description_4": "",
-            "image_description_5": "",
-            "image_description_6": "",
-            "image_description_7": "",
-            "image_description_8": "",
-            "slide_count": 3,
-            "image_size": 200,
-            "margin_top": 0,
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "620afdb7-663b-40dd-85d2-cbe31608fd36"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "pina-instagram": {
       "type": "pina-instagram",
       "custom_css": [
-        "._3sk-uqowCTN45alFsVlWfO {color: orangered; font-size: 20px; font-weight: 900; text-transform: capitalize;}",
+        "._3sk-uqowCTN45alFsVlWfO {color: black; font-size: 20px; font-weight: 900; text-transform: capitalize;}",
         "._25aIW7KA_nhJ3qLRUij1xK {color: black;}",
         "._3oU1FRBdRZ5fzMu7QXu2bB {color: black; font-family: Myriad Pro bold; text-transform: uppercase;}",
         "._3yzgbUSnoM0g12QES3gF19 {display: none;}",
@@ -275,7 +241,7 @@
         ".title-wrapper-with-link {justify-content: center;}"
       ],
       "settings": {
-        "title": "<strong>#HOTIES<\/strong>",
+        "title": "<strong>#HOT <\/strong><em><strong>ties<\/strong><\/em>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -297,8 +263,6 @@
     "ebbe9250-fec0-409d-a013-a8ce5be1bfeb",
     "6c77245a-8136-471d-a9e9-6bd53238c1e4",
     "featured_collection",
-    "1693402798464380bd",
-    "169340255340292b96",
     "pina-instagram",
     "863ce9a2-4b69-4a72-81f2-cd956ad12804"
   ]
