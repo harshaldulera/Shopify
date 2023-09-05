@@ -241,7 +241,7 @@
         ".title-wrapper-with-link {justify-content: center;}"
       ],
       "settings": {
-        "title": "<strong>#HOT ties<\/strong>",
+        "title": "<strong>#HOT <\/strong><em><strong>ties<\/strong><\/em>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
