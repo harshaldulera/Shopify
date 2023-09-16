@@ -49,6 +49,7 @@
         },
         "a0371053-4276-41a2-be2e-6e7684750fc9": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Collapsible row",
             "icon": "check_mark",
