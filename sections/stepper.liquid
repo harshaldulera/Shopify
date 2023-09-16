@@ -6,24 +6,25 @@
     }
     body {
         font-family: 'Open Sans', sans-serif;
-        font-size:16px;
-        color:#555555; 
+        font-size: 16px;
+        color: #555555;
     }
     .md-stepper-horizontal {
-        display:table;
-        width:100%;
-        margin:0 auto;
-        background-color:#FFFFFF;
-        box-shadow: 0 3px 8px -6px rgba(0,0,0,.50);
+        display: table;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        box-shadow: 0 3px 8px -6px rgba(0, 0, 0, .50);
     }
     .md-stepper-horizontal .md-step {
-        display:table-cell;
-        position:relative;
-        padding:24px;
+        display: table-cell;
+        position: relative;
+        padding: 24px;
+        text-align: center;
     }
     .md-stepper-horizontal .md-step:hover,
     .md-stepper-horizontal .md-step:active {
-        background-color:rgba(0,0,0,0.04);
+        background-color: rgba(0, 0, 0, 0.04);
     }
     .md-stepper-horizontal .md-step:active {
         border-radius: 15% / 75%;
@@ -37,83 +38,29 @@
         border-bottom-right-radius: 0;
     }
     .md-stepper-horizontal .md-step:hover .md-step-circle {
-        background-color:#910F3F    ;
-    }
-    .md-stepper-horizontal .md-step:first-child .md-step-bar-left,
-    .md-stepper-horizontal .md-step:last-child .md-step-bar-right {
-        display:none;
-    }
-    .md-stepper-horizontal .md-step .md-step-circle {
-        width:30px;
-        height:30px;
-        margin:0 auto;
-        background-color:#910F3F;
-        border-radius: 50%;
-        text-align: center;
-        line-height:30px;
-        font-size: 16px;
-        font-weight: 600;
-        color:#FFFFFF;
-    }
-    .md-stepper-horizontal.green .md-step.active .md-step-circle {
-        background-color:#910F3F;
-    }
-    .md-stepper-horizontal.orange .md-step.active .md-step-circle {
-        background-color:#910F3F;
-    }
-    .md-stepper-horizontal .md-step.active .md-step-circle {
         background-color: #910F3F;
     }
-    .md-stepper-horizontal .md-step.done .md-step-circle *,
-    .md-stepper-horizontal .md-step.editable .md-step-circle * {
-        display:none;
-    }
-    .md-stepper-horizontal .md-step.editable .md-step-circle {
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
+    .md-stepper-horizontal .md-step .md-step-circle {
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+        background-color: #910F3F;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFFFF;
     }
     .md-stepper-horizontal .md-step .md-step-title {
-        margin-top:16px;
-        font-size:16px;
-        font-weight:600;
-    }
-    .md-stepper-horizontal .md-step .md-step-title,
-    .md-stepper-horizontal .md-step .md-step-optional {
-        text-align: center;
-        color:rgba(0,0,0,.87);
+        margin-top: 16px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #555555;
     }
     .md-stepper-horizontal .md-step.active .md-step-title {
         font-weight: 600;
-        color:rgba(0,0,0,.87);
-    }
-    .md-stepper-horizontal .md-step.active.done .md-step-title,
-    .md-stepper-horizontal .md-stepper.horizontal .md-step.active.editable .md-step-title {
-        font-weight:600;
-    }
-    .md-stepper-horizontal .md-step .md-step-optional {
-        font-size:12px;
-    }
-    .md-stepper-horizontal .md-step.active .md-step-optional {
-        color:rgba(0,0,0,.54);
-    }
-    .md-stepper-horizontal .md-step .md-step-bar-left,
-    .md-stepper-horizontal .md-step .md-step-bar-right {
-        position:absolute;
-        top:39px;
-        height:1px;
-        border-top:1px solid #910F3F;
-    }
-    .md-stepper-horizontal .md-step .md-step-bar-right {
-        right:50%;
-        left:50%;
-        margin-left:20px;
-    }
-    .md-stepper-horizontal .md-step .md-step-bar-left {
-        left:0;
-        right:50%;
-        margin-right:20px;
+        color: #555555;
     }
     .md-stepper-horizontal .md-step:not(:last-child)::after {
         content: "";
@@ -121,28 +68,34 @@
         top: 50%;
         left: 100%;
         transform: translateY(-50%);
-        height: 1px;
-        width: 30px;
+        height: 3px;
+        width: 20px;
         background-color: #910F3F;
+    }
+    .md-stepper-horizontal .md-step a {
+        text-decoration: none;
+        color: inherit;
     }
 </style>
 
 <div class="md-stepper-horizontal orange">
     {% for step in (1..4) %}
     <div class="md-step{% if step <= 3 %} active{% endif %}">
-      <div class="md-step-circle"><span></span></div>
-      <div class="md-step-title">
-        {% case step %}
-        {% when 1 %}
-            <a href="/pages/faq">Open</a>
-        {% when 2 %}
-            <a href="/pages/faq">Cook</a>
-        {% when 3 %}
-            <a href="/pages/faq">Serve</a>
-        {% when 4 %}
-            <a href="/pages/faq">Enjoy</a>
-        {% endcase %}
-      </div>
+        <a href="/pages/faq">
+            <div class="md-step-circle"><span>{{ step }}</span></div>
+            <div class="md-step-title">
+                {% case step %}
+                {% when 1 %}
+                Open
+                {% when 2 %}
+                Cook
+                {% when 3 %}
+                Serve
+                {% when 4 %}
+                Enjoy
+                {% endcase %}
+            </div>
+        </a>
     </div>
     {% endfor %}
 </div>
@@ -166,7 +119,7 @@
           "type": "color",
           "label": "Step Title Color",
           "id": "title_color",
-          "default": "#000000"
+          "default": "#555555"
         }
       ]
     }
