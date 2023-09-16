@@ -57,6 +57,7 @@
         font-size: 16px;
         font-weight: 600;
         color: #555555;
+        position: relative;
     }
     .md-stepper-horizontal .md-step.active .md-step-title {
         font-weight: 600;
@@ -77,12 +78,23 @@
         color: inherit;
     }
 
-    .wrapper{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        column-gap: 20px;
-        row-gap: 1em;
+    .md-stepper-horizontal .md-step .md-step-title::before,
+    .md-stepper-horizontal .md-step .md-step-title::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        height: 3px;
+        width: 20px;
+        background-color: #910F3F;
+    }
+    .md-stepper-horizontal .md-step .md-step-title::before {
+    left: -30px;
+    transform: translateY(-50%);
+    }
+
+    .md-stepper-horizontal .md-step .md-step-title::after {
+        right: -30px;
+        transform: translateY(-50%);
     }
 </style>
 
