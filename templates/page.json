@@ -32,13 +32,22 @@
         "template--20599711891746__aa9d0ea4-de92-4c39-adae-91717e673f43-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "What are the payment options available for me?",
+            "icon": "none",
+            "row_content": "<p>HOT allows multiple options for payment for the products that are available across various segments in its platforms. For all the products, including meals, snacks, and more, the payment gateway allows customers to pay through their preferred payment modes, including debit and credit cards. The platform that is available for these payments is Razorpay, whose gateway also allows for UPI transactions (Google Pay, Paytm), net banking, and other payment methods. The Razorpay payment platform provides an integrated solution with customer ease in mind. In case of any issues with your payment, or the payment process please contact support@HOT.com.<\/p>",
             "page": ""
           }
         },
         "template--20599711891746__aa9d0ea4-de92-4c39-adae-91717e673f43-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does hot accept international payments?",
+            "icon": "none",
+            "row_content": "<p>HOT accepts payments through various service providers and payment methods across its sales channels. This is enabled through the Razorpay platform, an integrated solution managing the payment process through its gateway for the website. The Razorpay platform allows for international payments from users of the system through integration with net banking, Credit and Debit Cards, UPI, and other payment methods. In case you have any queries regarding payment and international payments towards HOT please write to us here: support@quickybowl.com. Kindly note that shipments are currently restricted to Indian locations across India only. Our international shipments are currently on hold. This however would not impact payments to be made through international services but with delivery locations based out of India.<\/p>",
+            "page": ""
+          }
+        },
+        "a0371053-4276-41a2-be2e-6e7684750fc9": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
@@ -52,7 +61,8 @@
         "template--20599711891746__aa9d0ea4-de92-4c39-adae-91717e673f43-collapsible_row-1",
         "template--20599711891746__aa9d0ea4-de92-4c39-adae-91717e673f43-collapsible_row-2",
         "template--20599711891746__aa9d0ea4-de92-4c39-adae-91717e673f43-collapsible_row-3",
-        "template--20599711891746__aa9d0ea4-de92-4c39-adae-91717e673f43-collapsible_row-4"
+        "template--20599711891746__aa9d0ea4-de92-4c39-adae-91717e673f43-collapsible_row-4",
+        "a0371053-4276-41a2-be2e-6e7684750fc9"
       ],
       "settings": {
         "caption": "",
