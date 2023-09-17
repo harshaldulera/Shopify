@@ -54,7 +54,7 @@
         "description"
       ],
       "custom_css": [
-
+        ".quantity:before{box-shadow : none;}"
       ],
       "settings": {
         "enable_sticky_info": true,
