@@ -142,7 +142,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".title-wrapper--no-top-margin {text-align: center;}",
-        ".h1 {font-family: Quirky;}",
+        ".h1 {font-family: Druk;}",
         ".slider-buttons {display: none;}"
       ],
       "settings": {
@@ -176,18 +176,18 @@
       "custom_css": [
         "._3sk-uqowCTN45alFsVlWfO {color: black; font-size: 20px; font-weight: 900; text-transform: capitalize;}",
         "._25aIW7KA_nhJ3qLRUij1xK {color: black;}",
-        "._3oU1FRBdRZ5fzMu7QXu2bB {color: black; font-family: Myriad Pro bold; text-transform: uppercase;}",
+        "._3oU1FRBdRZ5fzMu7QXu2bB {color: black; font-family: Druk; text-transform: uppercase;}",
         "._3yzgbUSnoM0g12QES3gF19 {display: none;}",
         "._1p4GqNgksxyi8mIg16MwkG {display: none;}",
         "._25aIW7KA_nhJ3qLRUij1xK {display: flex; align-items: center; margin-top: -5px; margin-left: -1.7vw;}"
       ],
       "settings": {
-        "title": "Visit our Instagram",
+        "title": "",
         "show_profile": true,
         "timeline": "own",
         "small": "2",
         "medium": "3",
-        "large": "4",
+        "large": "3",
         "gutter": "2",
         "count": "8",
         "hashtags": "",
@@ -238,10 +238,11 @@
         "template--20599711793442__863ce9a2-4b69-4a72-81f2-cd956ad12804-column-3"
       ],
       "custom_css": [
-        ".title-wrapper-with-link {justify-content: center;}"
+        ".title-wrapper-with-link {justify-content: center;}",
+        ".h1 {font-family: Druk;}"
       ],
       "settings": {
-        "title": "<strong>#HOT <\/strong><em><strong>ties<\/strong><\/em>",
+        "title": "<em><strong>#HOT <\/strong><\/em><em>Ties<\/em>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
