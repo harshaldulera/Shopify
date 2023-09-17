@@ -133,6 +133,7 @@
 
 .multicolumn-card__info {
   padding: 2.5rem;
+  color-shadow = none;
 }
 
 .background-none .multicolumn-card__info {
