@@ -65,7 +65,7 @@
     .md-stepper-horizontal .md-step:not(:last-child)::after {
         content: "";
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 100%;
         transform: translateX(-50%);
         height: 3px;
@@ -86,13 +86,9 @@
             <div class="md-step-title">
                 {% case step %}
                 {% when 1 %}
-                Open
                 {% when 2 %}
-                Cook
                 {% when 3 %}
-                Serve
                 {% when 4 %}
-                Enjoy
                 {% endcase %}
             </div>
         </a>
