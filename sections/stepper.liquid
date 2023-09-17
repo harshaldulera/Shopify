@@ -72,6 +72,20 @@
         width: 400px;
         background-color: #910F3F;
     }
+
+    /* Media query for screens smaller than 768px */
+    @media (max-width: 768px) {
+        .md-stepper-horizontal .md-step:not(:last-child)::after {
+            width: 200px; /* Adjust the width for smaller screens */
+        }
+    }
+
+/* Media query for screens smaller than 480px */
+    @media (max-width: 480px) {
+        .md-stepper-horizontal .md-step:not(:last-child)::after {
+            width: 100px; /* Adjust the width for even smaller screens */
+        }
+    }
     .md-stepper-horizontal .md-step a {
         text-decoration: none;
         color: inherit;
