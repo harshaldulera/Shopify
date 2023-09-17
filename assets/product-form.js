@@ -20,14 +20,6 @@ if (!customElements.get('product-form')) {
         evt.preventDefault();
         if (this.submitButton.getAttribute('aria-disabled') === 'true') return;
 
-        const formData = new FormData(this.form);
-        const quantity = formData.get('quantity');
-        
-        if (quantity < 3) {
-          thie.handleErrorMessage('Minimum order quantity is 3');
-          return;
-        }
-
         this.handleErrorMessage();
 
         this.submitButton.setAttribute('aria-disabled', true);
