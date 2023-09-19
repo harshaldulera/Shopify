@@ -49,11 +49,55 @@
         },
         "a0371053-4276-41a2-be2e-6e7684750fc9": {
           "type": "collapsible_row",
-          "disabled": true,
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "What is freeze-drying?",
+            "icon": "none",
+            "row_content": "<p>Freeze Drying is NOT dehydration. Freeze drying, also known as lyophilization or cryodesiccation, is a low-temperature dehydration process that involves freezing the product, lowering pressure, and removing the ice by sublimation. The result is getting food that is flavourful, aromatic and nutritious. Dehydration, on the other hand, evaporates water using heat. <\/p>",
+            "page": ""
+          }
+        },
+        "ece03a26-31a7-4b28-a877-a7893feb93cc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why choose us?",
+            "icon": "none",
+            "row_content": "<p>We as a brand and as a product, assure high-quality nutritious food. We are transparent and truthful about our ingredients usage. <br\/>HOT Freeze Dried: Freeze-dried foods offer a longer shelf life, lower moisture content, and taste better than dehydrated foods. Freeze-dried foods rehydrate faster and retain their original flavour, texture, and nutrients. A far greater variety of foods can be freeze-dried than those dehydrated.<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "87d87b88-8a46-48e4-8e67-2c5e49b098ba": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is ready to eat?",
+            "icon": "none",
+            "row_content": "<p>Ready-to-eat foods are shelf-stable food items that focus on consumers’ convenience. These products require almost no cooking, be it a fancy restaurant-style gourmet meal or a simple and comforting plate of home food. We at HOT ready-to-eat foods can do it all for you.<\/p>",
+            "page": ""
+          }
+        },
+        "b385d575-deda-4d7f-8c17-fc285a75e0b6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How to cook HOT on the stove?",
+            "icon": "none",
+            "row_content": "<p>Instructions:<br\/>Empty the contents of the packet into a bowl or pot. Be sure to remove the oxygen absorber pouch.<br\/>Add the amount of water specified on the packet instructions.<br\/>Stir well to combine.<br\/>Cover the bowl or pot and let it sit on the stove(medium flame) for the amount of time specified in the instructions.<br\/>Once the food is rehydrated, it is ready to eat.<\/p>",
+            "page": ""
+          }
+        },
+        "e6ee2993-52c9-45fe-9098-a8de4f6f9b72": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How to cook HOT in a cup?",
+            "icon": "none",
+            "row_content": "<p>Instructions:<br\/>Empty the contents of the packet into a cup. Be sure to discard the oxygen absorber sachet.<br\/>Add the specific amount of boiling water mentioned on the packet inside the cup.<br\/>Close the lid of the cup tightly.<br\/>Let the contents stand for the specified time, or until they are cooked through.<br\/>Stir the food again and enjoy!<\/p>",
+            "page": ""
+          }
+        },
+        "48cc840e-c83d-45d4-a81f-b0937b6cfd15": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How to prepare HOT Ready to Eat in a microwave?",
+            "icon": "none",
+            "row_content": "<p>Empty the contents of the packet into a microwave-safe dish. Be sure to discard the oxygen absorber sachet.<br\/>Add the specific amount of water mentioned on the packet inside the cup.<br\/>Microwave on high for the amount of time specified on the packet.<br\/>Stir or shake the product halfway through cooking.<br\/>Once the product is rehydrated, remove it from the microwave and let it stand for a few minutes before serving.<\/p>",
             "page": ""
           }
         }
@@ -63,11 +107,16 @@
         "template--20599711891746__aa9d0ea4-de92-4c39-adae-91717e673f43-collapsible_row-2",
         "template--20599711891746__aa9d0ea4-de92-4c39-adae-91717e673f43-collapsible_row-3",
         "template--20599711891746__aa9d0ea4-de92-4c39-adae-91717e673f43-collapsible_row-4",
-        "a0371053-4276-41a2-be2e-6e7684750fc9"
+        "a0371053-4276-41a2-be2e-6e7684750fc9",
+        "ece03a26-31a7-4b28-a877-a7893feb93cc",
+        "87d87b88-8a46-48e4-8e67-2c5e49b098ba",
+        "b385d575-deda-4d7f-8c17-fc285a75e0b6",
+        "e6ee2993-52c9-45fe-9098-a8de4f6f9b72",
+        "48cc840e-c83d-45d4-a81f-b0937b6cfd15"
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "<strong>FAQ Page<\/strong>",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",

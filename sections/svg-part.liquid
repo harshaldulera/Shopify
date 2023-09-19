@@ -1,0 +1,53 @@
+<style>
+
+  .svg-section {
+  display: flex;
+  justify-content: center;
+}
+
+.svg-section img {
+  flex: 0 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .svg-section img {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .svg-section img {
+    flex: 0 0 100%;
+  }
+}
+
+</style>
+
+
+
+{% schema %}
+  {
+    "name": "SVG Section",
+    "class": "svg-section",
+    "settings": [],
+    "blocks": [],
+    "max_blocks": 1,
+    "presets": [
+      {
+        "category": "svg",
+        "name": "svg"
+      }
+    ]
+  }
+{% endschema %}
+
+{% assign svg_filename = 'Freee.svg' %}
+{% assign svg_file = 'Freee (1).svg' %}
+{% assign svg_file2 = 'Freee (2).svg' %}
+
+<object data="{{ svg_filename | asset_url }}" width="200" height="200"></object>
+<object data="{{ svg_file | asset_url }}" width="200" height="200"></object>
+<object data="{{ svg_file2 | asset_url }}" width="200" height="200"></object>
