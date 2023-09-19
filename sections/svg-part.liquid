@@ -1,3 +1,33 @@
+<style>
+  .svg-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.svg-section img {
+  flex: 0 0 33.33%;
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .svg-section img {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .svg-section img {
+    flex: 0 0 100%;
+  }
+}
+
+</style>
+
+
+
 {% schema %}
   {
     "name": "SVG Section",
