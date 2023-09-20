@@ -88,65 +88,15 @@
       "settings": {
       }
     },
-    "6c77245a-8136-471d-a9e9-6bd53238c1e4": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20493837893922__6c77245a-8136-471d-a9e9-6bd53238c1e4-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "The making of HOT",
-            "heading_size": "h1"
-          }
-        },
-        "template--20493837893922__6c77245a-8136-471d-a9e9-6bd53238c1e4-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Indulge in the authentic flavors of our meticulously crafted dishes at Home of Temptation. Our skilled chefs bring their expertise to every plate, ensuring a culinary experience that tantalizes your taste buds and captures the essence of each dish.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "f52d84e7-bf09-4487-a8e5-107d72e10092": {
-          "type": "caption",
-          "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "template--20493837893922__6c77245a-8136-471d-a9e9-6bd53238c1e4-heading-1",
-        "template--20493837893922__6c77245a-8136-471d-a9e9-6bd53238c1e4-text-1",
-        "f52d84e7-bf09-4487-a8e5-107d72e10092"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".inline-richtext {font-family: Quirky;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/cook-chef-with-big-explosion-kitchen_207634-3621.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
         ".title-wrapper--no-top-margin {text-align: center;}",
-        ".h1 {font-family: Quirky;}",
+        ".h1 {font-family: Quirk; font-size: 100px;}",
         ".slider-buttons {display: none;}"
       ],
       "settings": {
-        "title": "<em><strong>#HOT <\/strong><\/em><em>Deals<\/em>",
+        "title": "<strong>#HOT deaLS<\/strong>",
         "heading_size": "h1",
         "description": "",
         "show_description": true,
@@ -169,44 +119,6 @@
         "swipe_on_mobile": true,
         "padding_top": 16,
         "padding_bottom": 16
-      }
-    },
-    "pina-instagram": {
-      "type": "pina-instagram",
-      "custom_css": [
-        "._3sk-uqowCTN45alFsVlWfO {color: black; font-size: 20px; font-weight: 900; text-transform: capitalize;}",
-        "._25aIW7KA_nhJ3qLRUij1xK {color: black;}",
-        "._3oU1FRBdRZ5fzMu7QXu2bB {color: black; font-family: Druk; text-transform: uppercase;}",
-        "._3yzgbUSnoM0g12QES3gF19 {display: none;}",
-        "._1p4GqNgksxyi8mIg16MwkG {display: none;}",
-        "._25aIW7KA_nhJ3qLRUij1xK {display: flex; align-items: center; margin-top: -5px; margin-left: -1.7vw;}"
-      ],
-      "settings": {
-        "title": "",
-        "show_profile": true,
-        "timeline": "own",
-        "small": "2",
-        "medium": "3",
-        "large": "3",
-        "gutter": "2",
-        "count": "8",
-        "hashtags": "",
-        "container_class": "page-width",
-        "margin_top": "",
-        "margin_left": "",
-        "margin_bottom": "",
-        "margin_right": "",
-        "desktop_width": "",
-        "mobile_width": "",
-        "tablet_width": ""
-      }
-    },
-    "3f1f63d3-7aa6-42a1-b839-741822d32f12": {
-      "type": "svg-part",
-      "custom_css": [
-
-      ],
-      "settings": {
       }
     },
     "725de831-0a8f-492b-9642-bc7fe17b52c8": {
@@ -264,15 +176,103 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "pina-instagram": {
+      "type": "pina-instagram",
+      "custom_css": [
+        "._3sk-uqowCTN45alFsVlWfO {color: black; font-size: 20px; font-weight: 900; text-transform: capitalize;}",
+        "._25aIW7KA_nhJ3qLRUij1xK {color: black;}",
+        "._3oU1FRBdRZ5fzMu7QXu2bB {color: black; font-family: Druk; text-transform: uppercase;}",
+        "._3yzgbUSnoM0g12QES3gF19 {display: none;}",
+        "._1p4GqNgksxyi8mIg16MwkG {display: none;}",
+        "._25aIW7KA_nhJ3qLRUij1xK {display: flex; align-items: center; margin-top: -5px; margin-left: -1.7vw;}"
+      ],
+      "settings": {
+        "title": "",
+        "show_profile": true,
+        "timeline": "own",
+        "small": "2",
+        "medium": "3",
+        "large": "3",
+        "gutter": "2",
+        "count": "8",
+        "hashtags": "",
+        "container_class": "page-width",
+        "margin_top": "",
+        "margin_left": "",
+        "margin_bottom": "",
+        "margin_right": "",
+        "desktop_width": "",
+        "mobile_width": "",
+        "tablet_width": ""
+      }
+    },
+    "3f1f63d3-7aa6-42a1-b839-741822d32f12": {
+      "type": "svg-part",
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
+    "6c77245a-8136-471d-a9e9-6bd53238c1e4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20493837893922__6c77245a-8136-471d-a9e9-6bd53238c1e4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The making of HOT",
+            "heading_size": "h1"
+          }
+        },
+        "template--20493837893922__6c77245a-8136-471d-a9e9-6bd53238c1e4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Indulge in the authentic flavors of our meticulously crafted dishes at Home of Temptation. Our skilled chefs bring their expertise to every plate, ensuring a culinary experience that tantalizes your taste buds and captures the essence of each dish.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "f52d84e7-bf09-4487-a8e5-107d72e10092": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--20493837893922__6c77245a-8136-471d-a9e9-6bd53238c1e4-heading-1",
+        "template--20493837893922__6c77245a-8136-471d-a9e9-6bd53238c1e4-text-1",
+        "f52d84e7-bf09-4487-a8e5-107d72e10092"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".inline-richtext {font-family: Quirky;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cook-chef-with-big-explosion-kitchen_207634-3621.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "slideshow",
     "ebbe9250-fec0-409d-a013-a8ce5be1bfeb",
-    "6c77245a-8136-471d-a9e9-6bd53238c1e4",
     "featured_collection",
+    "725de831-0a8f-492b-9642-bc7fe17b52c8",
     "pina-instagram",
     "3f1f63d3-7aa6-42a1-b839-741822d32f12",
-    "725de831-0a8f-492b-9642-bc7fe17b52c8"
+    "6c77245a-8136-471d-a9e9-6bd53238c1e4"
   ]
 }
