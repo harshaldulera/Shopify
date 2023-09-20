@@ -142,7 +142,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".title-wrapper--no-top-margin {text-align: center;}",
-        ".h1 {font-family: Druk;}",
+        ".h1 {font-family: Quirky;}",
         ".slider-buttons {display: none;}"
       ],
       "settings": {
