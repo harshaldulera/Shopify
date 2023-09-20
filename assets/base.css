@@ -3551,6 +3551,6 @@ details-disclosure > details {
     ) !important;
 }
 
-.field:after{
+.field::after{
   box-shadow: unset !important;
 }
