@@ -115,7 +115,9 @@
         "template--20599711891746__aa9d0ea4-de92-4c39-adae-91717e673f43-collapsible_row-1"
       ],
       "custom_css": [
-        ".h1 {font-family: Quirk; font-size: 60px;}"
+        ".h1 {font-family: Quirk; font-size: 60px;}",
+        ".h4 {font-family: Myriad;}",
+        ".rte {font-family: Myriad;}"
       ],
       "settings": {
         "caption": "",
