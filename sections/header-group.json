@@ -37,8 +37,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".field:after {box-shadow: none; border-bottom: 3px solid; top: auto !important;}",
-        ".field:before {box-shadow: none;}",
+
       ],
       "settings": {
         "logo_position": "middle-left",
@@ -61,5 +60,4 @@
     "announcement-bar",
     "header"
   ]
-  
 }
