@@ -3550,7 +3550,3 @@ details-disclosure > details {
         #f8f9ff 368.89deg
     ) !important;
 }
-
-.field::after{
-  box-shadow: unset !important;
-}
