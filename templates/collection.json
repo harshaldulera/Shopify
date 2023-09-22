@@ -16,7 +16,7 @@
       "custom_css": [
         "h3 {font-family: Druk; font-weight: bold; font-size: 18px;}",
         "#ProductCountDesktop {display: none;}",
-        "#SortBy{font-family: Druk;font-weight: bold;}"
+        "#SortBy {font-family: Druk; font-weight: bold;}"
       ],
       "settings": {
         "products_per_page": 20,
