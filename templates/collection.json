@@ -2,6 +2,9 @@
   "sections": {
     "main-collection-banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        "h1 {font-family: Quirk; font-size: 60px;}"
+      ],
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -10,6 +13,9 @@
     },
     "main-product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        "h3 {font-family: Druk; font-weight: bold; font-size: 18px;}"
+      ],
       "settings": {
         "products_per_page": 20,
         "columns_desktop": 4,
