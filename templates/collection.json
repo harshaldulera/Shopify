@@ -3,7 +3,7 @@
     "main-collection-banner": {
       "type": "main-collection-banner",
       "custom_css": [
-        "h1 {font-family: Quirk; font-size: 60px;}"
+        "h1 {font-family: Myriad; font-size: 60px;}"
       ],
       "settings": {
         "show_collection_description": true,
