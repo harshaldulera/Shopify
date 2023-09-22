@@ -3,7 +3,8 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "{background-color: #ffffff;}"
+        "{background-color: #ffffff;}",
+        "h1{font-family: Myriad;}"
       ],
       "settings": {
         "padding_top": 36,
