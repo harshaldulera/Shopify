@@ -94,7 +94,8 @@
         ".title-wrapper--no-top-margin {text-align: center;}",
         ".h1 {font-family: Quirk; font-size: 100px;}",
         ".slider-buttons {display: none;}",
-        "@media (max-width: 480px) {.h1{font-size: 60px; }}"
+        "@media (max-width: 480px) {.h1 {font-size: 60px; }}",
+        ".card__heading {font-family: myriad;}"
       ],
       "settings": {
         "title": "<strong>#HOT deaLS<\/strong>",
