@@ -95,7 +95,7 @@
         ".h1 {font-family: Quirk; font-size: 100px;}",
         ".slider-buttons {display: none;}",
         "@media (max-width: 480px) {.h1 {font-size: 60px; }}",
-        ".card__heading {font-family: myriad;}"
+        ".card__heading {font-family: myriad; font-size: 18px;}"
       ],
       "settings": {
         "title": "<strong>#HOT deaLS<\/strong>",
