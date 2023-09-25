@@ -182,7 +182,7 @@
     "pina-instagram": {
       "type": "pina-instagram",
       "custom_css": [
-
+        ".wLgXItGWJwUNHM3cCe4gB{font-family: Myriad; color: black; font-size: 22px;}"
       ],
       "settings": {
         "title": "",
