@@ -6,7 +6,7 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_hot_1_1_936cf693-df02-4496-9c1b-8c0eca9dd05c.png",
+            "image": "shopify:\/\/shop_images\/2_01424896-5684-4926-b48d-caa717dafd4d.png",
             "image_link": "shopify:\/\/collections\/all",
             "heading": "",
             "heading_size": "h0",
@@ -25,7 +25,7 @@
         "2270cee3-292b-4957-884a-9b18b83aad5a": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_hot_2.png",
+            "image": "shopify:\/\/shop_images\/1_0bc770d7-d430-4300-8020-0c3ec72cd4c6.png",
             "image_link": "",
             "heading": "",
             "heading_size": "h1",
@@ -183,7 +183,7 @@
       "type": "pina-instagram",
       "custom_css": [
         ".wLgXItGWJwUNHM3cCe4gB {font-family: Myriad; color: black; font-size: 22px;}",
-        "._3yzgbUSnoM0g12QES3gF19{display: none;}"
+        "._3yzgbUSnoM0g12QES3gF19 {display: none;}"
       ],
       "settings": {
         "title": "",
