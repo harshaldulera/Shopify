@@ -4,7 +4,7 @@
       "type": "main-page",
       "custom_css": [
         "{background-color: #ffffff;}",
-        "h1{font-family: Myriad;}"
+        "h1 {font-family: Myriad;}"
       ],
       "settings": {
         "padding_top": 36,
@@ -14,7 +14,8 @@
     "contact-form": {
       "type": "contact-form",
       "custom_css": [
-
+        ".field__input,.customer .field input {margin: 0;}",
+        ".field:before,.select:before,.customer .field:before,.customer select:before,.localization-form__select:before {box-shadow : none;}"
       ],
       "settings": {
         "heading": "",
