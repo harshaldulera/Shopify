@@ -5,7 +5,7 @@
     flex-wrap: wrap;
   }
 
-  .svg-section object {
+  .svg-section img {
     flex: 0 0 auto;
     max-width: 100%;
     height: auto;
@@ -13,14 +13,20 @@
   }
 
   @media (max-width: 768px) {
-    .svg-section object {
+    .svg-section img {
       flex: 0 0 50%;
     }
   }
 
   @media (max-width: 480px) {
-    .svg-section object {
+    .svg-section img {
       flex: 0 0 100%;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .svg-section img {
+      flex: 0 0 25%;
     }
   }
 </style>
