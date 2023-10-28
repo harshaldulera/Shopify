@@ -10,24 +10,9 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
-    },
-    "contact-form": {
-      "type": "contact-form",
-      "custom_css": [
-        ".field__input,.customer .field input {margin: 0;}",
-        ".field:before,.select:before,.customer .field:before,.customer select:before,.localization-form__select:before {box-shadow : none;}"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
     }
   },
   "order": [
-    "main",
-    "contact-form"
+    "main"
   ]
 }
