@@ -148,11 +148,12 @@
         "template--20599711793442__725de831-0a8f-492b-9642-bc7fe17b52c8-slide-2": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/freezedried.png",
             "image_link": "",
-            "heading": "Image slide",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -167,6 +168,9 @@
       "block_order": [
         "template--20599711793442__725de831-0a8f-492b-9642-bc7fe17b52c8-slide-1",
         "template--20599711793442__725de831-0a8f-492b-9642-bc7fe17b52c8-slide-2"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "layout": "full_bleed",
