@@ -276,6 +276,7 @@
   {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
 
   {% render 'shogun-head' %}
+{{ shop.metafields.reviewxpo['global_styles'] }}
 </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
@@ -354,7 +355,14 @@
     }
   </style>
     
-  </body>
+  
+<script>
+    var rvxpo_product_ratings = {{ product.metafields.reviewxpo.rating.value | json }};
+</script>
+
+{{ shop.metafields.reviewxpo['global_scripts'] }}
+
+</body>
 
 
 </html>
