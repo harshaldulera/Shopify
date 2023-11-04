@@ -5,7 +5,7 @@
       "custom_css": [
         "{background-color: #ffffff;}",
         "h1 {font-family: Myriad;}",
-        ".row {display: none;}"
+        ".row {display: none !important;}"
       ],
       "settings": {
         "padding_top": 36,
