@@ -4,7 +4,8 @@
       "type": "main-page",
       "custom_css": [
         "{background-color: #ffffff;}",
-        "h1 {font-family: Myriad;}"
+        "h1 {font-family: Myriad;}",
+        ".row {display: none;}"
       ],
       "settings": {
         "padding_top": 36,
