@@ -130,7 +130,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/tnm.png",
-            "image_link": "",
+            "image_link": "shopify:\/\/pages\/about-us",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
