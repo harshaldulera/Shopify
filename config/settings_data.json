@@ -165,18 +165,6 @@
         "disabled": false,
         "settings": {
         }
-      },
-      "7110948656288603277": {
-        "type": "shopify:\/\/apps\/pify-form-builder-contact-form\/blocks\/bar-app-embed\/0b1d894b-0f30-4027-8d73-7171ce29b1be",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "17309853810776502128": {
-        "type": "shopify:\/\/apps\/pify-form-builder-contact-form\/blocks\/app-embed\/0b1d894b-0f30-4027-8d73-7171ce29b1be",
-        "disabled": true,
-        "settings": {
-        }
       }
     },
     "color_schemes": {
