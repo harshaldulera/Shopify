@@ -149,7 +149,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/freezedried.png",
-            "image_link": "",
+            "image_link": "shopify:\/\/pages\/about-us",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
