@@ -83,6 +83,11 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "ebbe9250-fec0-409d-a013-a8ce5be1bfeb": {
+      "type": "stepper",
+      "settings": {
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
@@ -116,11 +121,6 @@
         "swipe_on_mobile": false,
         "padding_top": 16,
         "padding_bottom": 16
-      }
-    },
-    "ebbe9250-fec0-409d-a013-a8ce5be1bfeb": {
-      "type": "stepper",
-      "settings": {
       }
     },
     "725de831-0a8f-492b-9642-bc7fe17b52c8": {
@@ -270,8 +270,8 @@
   },
   "order": [
     "slideshow",
-    "featured_collection",
     "ebbe9250-fec0-409d-a013-a8ce5be1bfeb",
+    "featured_collection",
     "725de831-0a8f-492b-9642-bc7fe17b52c8",
     "pina-instagram",
     "3f1f63d3-7aa6-42a1-b839-741822d32f12",
