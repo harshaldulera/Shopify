@@ -397,7 +397,7 @@ slider-component.slider-component-full-width {
   transform: rotate(90deg) scale(1.1);
 }
 
-.slideshow__controls {
+/* .slideshow__controls {
   display: block !important;
   opacity: 1 !important;
   position: static !important;
@@ -419,4 +419,4 @@ slider-component.slider-component-full-width {
 
 .slideshow__controls .slider-counter {
   display: none;
-} 
+}  */
