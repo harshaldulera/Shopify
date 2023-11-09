@@ -212,7 +212,8 @@
     "3f1f63d3-7aa6-42a1-b839-741822d32f12": {
       "type": "svg-part",
       "custom_css": [
-        "img{width:15vw}"
+        "img {width: 15vw;}",
+        "@media (max-width: 720px){img {width: 10vw;}}"
       ],
       "settings": {
       }
