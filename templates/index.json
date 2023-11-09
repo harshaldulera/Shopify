@@ -170,10 +170,10 @@
         "template--20599711793442__725de831-0a8f-492b-9642-bc7fe17b52c8-slide-2"
       ],
       "custom_css": [
-        ".slider.slider--everywhere .slider__slide {height: 55vw;}"
+
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "adapt_image",
         "slider_visual": "counter",
         "auto_rotate": false,
