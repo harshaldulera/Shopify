@@ -195,7 +195,7 @@
         "timeline": "own",
         "small": "2",
         "medium": "3",
-        "large": "3",
+        "large": "4",
         "gutter": "2",
         "count": "8",
         "hashtags": "",
@@ -213,7 +213,7 @@
       "type": "svg-part",
       "custom_css": [
         "img {width: 15vw;}",
-        "@media (max-width: 720px){img {width: 10vw;}}"
+        "@media (max-width: 720px) {img {width: 10vw; }}"
       ],
       "settings": {
       }
