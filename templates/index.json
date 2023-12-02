@@ -138,8 +138,8 @@
         "template--20599711793442__252f613b-052b-4e8c-818e-713858482ca2-heading-1"
       ],
       "custom_css": [
-        ".rich-text content-container color-background-1 gradient rich-text--full-width content-container--full-width section-template--20599711793442__252f613b-052b-4e8c-818e-713858482ca2-padding {box-shadow: none; color-shadow: none;}",
-        ".color-background-1{color-shadow: none;}"
+        ".rich-text content-container color-background-1 gradient rich-text--full-width content-container--full-width section-template--20599711793442__252f613b-052b-4e8c-818e-713858482ca2-padding {box-shadow: none;}",
+        ".color-background-1 {color-shadow: none !important;}"
       ],
       "settings": {
         "desktop_content_position": "center",
