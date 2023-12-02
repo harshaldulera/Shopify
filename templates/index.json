@@ -123,6 +123,29 @@
         "padding_bottom": 16
       }
     },
+    "252f613b-052b-4e8c-818e-713858482ca2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20599711793442__252f613b-052b-4e8c-818e-713858482ca2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "ABOUT US",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "template--20599711793442__252f613b-052b-4e8c-818e-713858482ca2-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "725de831-0a8f-492b-9642-bc7fe17b52c8": {
       "type": "slideshow",
       "blocks": {
@@ -273,6 +296,7 @@
     "slideshow",
     "ebbe9250-fec0-409d-a013-a8ce5be1bfeb",
     "featured_collection",
+    "252f613b-052b-4e8c-818e-713858482ca2",
     "725de831-0a8f-492b-9642-bc7fe17b52c8",
     "pina-instagram",
     "3f1f63d3-7aa6-42a1-b839-741822d32f12",
