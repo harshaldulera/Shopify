@@ -118,6 +118,9 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Untitled_design_1_1.png",
+    "checkout_accent_color": "#910f3f",
+    "checkout_button_color": "#910f3f",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
