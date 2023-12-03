@@ -11,18 +11,10 @@
             "text": "Welcome to our store",
             "link": ""
           }
-        },
-        "e6b141c4-fadb-46dc-9cac-0a0e9e9a9fff": {
-          "type": "announcement",
-          "settings": {
-            "text": "20% Off for New Users",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "e6b141c4-fadb-46dc-9cac-0a0e9e9a9fff"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "inverse",
