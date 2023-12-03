@@ -11,6 +11,16 @@
         "padding_bottom": 0
       }
     },
+    "contact-form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "f790e14c-08d3-4455-9f82-dcf295f07cb9": {
       "type": "rich-text",
       "blocks": {
@@ -32,21 +42,11 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "contact-form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
     }
   },
   "order": [
     "main",
-    "f790e14c-08d3-4455-9f82-dcf295f07cb9",
-    "contact-form"
+    "contact-form",
+    "f790e14c-08d3-4455-9f82-dcf295f07cb9"
   ]
 }
