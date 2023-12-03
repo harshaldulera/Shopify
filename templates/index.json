@@ -139,7 +139,7 @@
       ],
       "custom_css": [
         ":root,.color-background-1 {--color-shadow: none !important; border: none !important;}",
-        "h2{font-family: Quirk;}"
+        "h2 {font-size: 9rem; font-family: Quirk;}"
       ],
       "settings": {
         "desktop_content_position": "center",
