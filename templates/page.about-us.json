@@ -11,6 +11,28 @@
         "padding_bottom": 0
       }
     },
+    "f790e14c-08d3-4455-9f82-dcf295f07cb9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21349429117218__f790e14c-08d3-4455-9f82-dcf295f07cb9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1]122, Kikastreet, Gulalwadi,Mahaveer Mansion No 7A, Mumbai, Bhuleshwar, Greater Mumbai Ward - C, Greater Mumbai, Maharashtra - 400004<\/p><p><br\/>2]7\/48 ,A.C. Market, Tardeo, Mumbai ,Maharashta 400034<br\/><\/p><p>Phone No:<\/p><p><br\/>+91 9833040018<br\/>+91 7506817411<br\/>+91 9819316066<br\/> <br\/><br\/>Email: tandmfoodlabs@gmail.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21349429117218__f790e14c-08d3-4455-9f82-dcf295f07cb9-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "contact-form": {
       "type": "contact-form",
       "settings": {
@@ -24,6 +46,7 @@
   },
   "order": [
     "main",
+    "f790e14c-08d3-4455-9f82-dcf295f07cb9",
     "contact-form"
   ]
 }
