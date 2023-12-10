@@ -11,10 +11,18 @@
             "text": "Welcome to our store",
             "link": ""
           }
+        },
+        "66906148-0895-4445-b012-cfc96d719461": {
+          "type": "announcement",
+          "settings": {
+            "text": "Use Coupon: HOTCODE for 20% off!",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "66906148-0895-4445-b012-cfc96d719461"
       ],
       "settings": {
         "color_scheme": "inverse",
