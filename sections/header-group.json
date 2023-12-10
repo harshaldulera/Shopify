@@ -2,6 +2,30 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "e0445420-4534-44ca-aac1-65129d3c7ae2": {
+      "type": "announcement-bar",
+      "blocks": {
+        "sections--20599711170850__e0445420-4534-44ca-aac1-65129d3c7ae2-announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "sections--20599711170850__e0445420-4534-44ca-aac1-65129d3c7ae2-announcement-1"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -11,18 +35,10 @@
             "text": "Welcome To Our Store",
             "link": ""
           }
-        },
-        "66906148-0895-4445-b012-cfc96d719461": {
-          "type": "announcement",
-          "settings": {
-            "text": "Use Coupon: HOTCODE for 20% off!",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "66906148-0895-4445-b012-cfc96d719461"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "inverse",
@@ -57,6 +73,7 @@
     }
   },
   "order": [
+    "e0445420-4534-44ca-aac1-65129d3c7ae2",
     "announcement-bar",
     "header"
   ]
