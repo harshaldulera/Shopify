@@ -125,11 +125,4 @@
       {{ 'products.product.sold_out' | t }}
     </span>
   {%- endif -%}
-  {% if liquidObject.available %} {% if liquidObject.compare_at_price_max > liquidObject.price and settings.sale_badge %}
-
- {{liquidObject.compare_at_price | minus: liquidObject.price | times: 100 | divided_by: liquidObject.compare_at_price }}% off
-{% endif %} {% elsif settings.sold_out_badge %}
-
-{{ 'products.product.sold_out' | t }}
-{% endif %}
 </div>
